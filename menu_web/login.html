@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Netflix</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="../bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+		crossorigin="anonymous"></script>
+</head>
+
+<body style="height: 100%; color: white;">
+
+	<div id='content'>
+		<nav class="navbar navbar-expand-lg" id="menu">
+			<div class="container">
+				<a class="navbar-brand" href="../"><img src="../img/netflix.png" width="200px"></a>
+			</div>
+		</nav>
+
+		<div class="p-5 mx-auto" style="background-color: rgba(0, 0, 0, 0.8); width: 400px;">
+			<h4 for="FormControlInput1" class="form-label">Sign In</h4>
+			<input type="email" class="form-control form-login mb-3 mt-4" id="FormControlInput1" placeholder="Email hoặc số điện thoại" >
+			<input type="pass" class="form-control form-login mb-4" id="FormControlInput2" placeholder="Mật khẩu">
+			<button class="btn btn-login mt-2 mb-2">Đăng nhập</button>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="background-color:#333">
+				<label class="form-check-label" for="flexCheckDefault" style="color: gray; font-size: 14px;">
+				  Nhớ tài khoản
+				<span style="margin-left: 50px;"><a href="#" style="color: gray; font-size: 14px;">Trợ giúp</a></span>
+				</label>
+			</div>
+			<div class="mt-5 mb-2" style="color: gray; font-size: 10px;">
+				<img src="../img/facebook.png" width="15px"> Login with facebook
+			</div>
+			<p style="color: gray;">New to Netflix? <a href="#">Sign up now</a></p>
+			<p style="color: gray; font-size: 10px;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more</a></p>
+		</div>
+		
+		<div id="Footer" class="mt-5 pb-5" style="background-color:rgba(0, 0, 0, 0.8); ">
+			<div class="container">
+				<hr>
+				<h3 class="mb-4">Bạn có câu hỏi gì? Liên hệ chúng tôi.</h3> 
+				<div class="row">
+					<div class="col-6 col-md-3">
+						<p><a href="../menu_web/FAQ.html">Câu hỏi thường gặp</a></p>
+						<p><a href="../menu_web/contact.html">Liên hệ với chúng tôi</a></p>
+					</div>
+					<div class="col-6 col-md-3">
+						<p><a href="../menu_web/login.html">Tài khoản</a></p>
+						<p><a href="../menu_web/privacy.html">Quyền riêng tư</a></p>
+						
+					</div>
+					<hr class="d-md-none">
+					<div class="col-6 col-md-3">
+						<p><a href="https://fast.com/">Kiểm tra tốc độ</a></p>
+						<p><a href="../menu_web/notices.html">Thông báo pháp lý</a></p>
+					</div>
+					<div class="col-6 col-md-3">
+						<p><a href="../menu_web/device.html">Các cách xem</a></p>
+						<p><a href="../menu_web/corpinfo.html">Thông tin doanh nghiệp</a></p>
+					</div>
+				</div>
+				<select class="form-select" id="validationCustom04" required style="width:150px">
+					<option selected >Tiếng Việt</option>
+					<option>English</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+
+</html>

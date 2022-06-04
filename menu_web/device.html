@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Netflix</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="../bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+		crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark" style='color:white'>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="menu">
+		<div class="container">
+			<a class="navbar-brand" href="../"><img src="../img/netflix.png" width="100px"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="../">Trang chủ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../menu_web/history_film.html">Lịch sử</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../menu_web/mylist.html">Danh sách của tôi</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Phim
+						</a>
+
+						<ul class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="Best.html">Top xem nhiều</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="Joke.html">Hài</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="action.html">Hành Động</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="Cartoon.html">Hoạt hình</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../menu_web/About_Us.html">Về chúng tôi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../menu_web/login.html">Đăng nhập</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../menu_web/signup.html">Đăng ký</a>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-danger" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="device_main">
+		<div class="row">
+			<div class="col-10 offset-1 text-center m-auto p-md-5" style="font-size:50px;font-weight: 700;">Connect to Netflix using your favorite devices.
+			</div>
+		</div>
+	</div>
+
+	<div class="bg-light">
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<li class="nav-item" role="presentation" style="width: calc(100%/7)">
+				<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#device1" type="button" style="width:100%"
+					role="tab" aria-controls="home" aria-selected="true"><img src="../img/img_aboutus/live-stream.png" width="100%"></button>
+			</li>
+			<li class="nav-item" role="presentation" style="width: calc(100%/7)">
+				<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#device2" type="button" style="width:100%"
+					role="tab"><img src="../img/img_aboutus/television.png" width="100%"></button>
+			</li>
+			<li class="nav-item" role="presentation" style="width: calc(100%/7)">
+				<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#device3" type="button" style="width:100%"
+					role="tab"><img src="../img/img_aboutus/game-console.png" width="100%"></button>
+			</li>
+			<li class="nav-item" role="presentation" style="width: calc(100%/7)">
+				<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#device4" type="button" style="width:100%"
+					role="tab" ><img src="../img/img_aboutus/pc.png" width="100%"></button>
+			</li>
+			<li class="nav-item" role="presentation" style="width: calc(100%/7)">
+				<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#device5" type="button" style="width:100%"
+					role="tab"><img src="../img/img_aboutus/bluray.png" width="100%"></button>
+			</li>
+			<li class="nav-item" role="presentation" style="width: calc(100%/7)">
+				<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#device6" type="button" style="width:100%"
+					role="tab" ><img src="../img/img_aboutus/smartphone.png" width="100%"></button>
+			</li>
+			<li class="nav-item" role="presentation" style="width: calc(100%/7)">
+				<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#device7" type="button" style="width:100%"
+					role="tab"><img src="../img/img_aboutus/laptop.png" width="100%"></button>
+			</li>
+		</ul>
+
+		<div class="tab-content w-100" id="myTabContent" style="background-image: url(/img/img_aboutus/device-panel-background2.jpg); height: 440px; background-size: 100%;">
+			<div class="tab-pane fade show active ms-5 pt-5 w-50" id="device1" role="tabpanel">
+				<h1 class="title-device">PLUG AND PLAY</h1>
+				<p class="content-device">The newest generation of media players and streaming sticks offer a fast,
+					easy, and affordable way to watch Netflix on your TV.</p>
+			</div>
+			<div class="tab-pane fade ms-5 pt-5 w-50" id="device2" role="tabpanel">
+				<h1 class="title-device">BUILT-IN CONNECTION</h1>
+				<p class="content-device">Smart TVs have Netflix already on them—ready for you to watch. There’s no need
+					to add another device.</p>
+			</div>
+			<div class="tab-pane fade ms-5 pt-5 w-50" id="device3" role="tabpanel">
+				<h1 class="title-device">PLAY GAMES<br>PLAY MOVIES</h1>
+				<p class="content-device">You can also watch Netflix on a variety of game consoles.</p>
+			</div>
+			<div class="tab-pane fade ms-5 pt-5 w-50" id="device4" role="tabpanel">
+				<h1 class="title-device">EASY AS CHANGING<br>CHANNELS
+				</h1>
+				<p class="content-device">Now you can switch from live TV to Netflix right from your set-top box.
+					Netflix is available through a growing number of pay TV providers. Ask yours for Netflix if you
+					don’t see it here.</p>
+			</div>
+			<div class="tab-pane fade ms-5 pt-5 w-50" id="device5" role="tabpanel">
+				<h1 class="title-device">ENJOY THE SIGHTS & SOUNDS</h1>
+				<p class="content-device">Stream Netflix using your Blu-ray player or Home Theater System.</p>
+			</div>
+			<div class="tab-pane fade ms-5 pt-5 w-50" id="device6" role="tabpanel">
+				<h1 class="title-device">TAKE NETFLIX WITH YOU</h1>
+				<p class="content-device">It’s easy to watch Netflix from anywhere. If Netflix isn’t already on your phone or tablet, you can download our free app from the Apple App Store, Google Play, or the Windows Phone Store.</p>
+			</div>
+			<div class="tab-pane fade ms-5 pt-5 w-50" id="device7" role="tabpanel">
+				<h1 class="title-device">WATCH ON WHAT YOU HAVE</h1>
+				<p class="content-device">Netflix is optimized for today’s most popular browsers so you can watch on your PC or laptop.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="text-center mt-5">Netflix streaming membership and internet connection required.
+
+		Netflix will be available on select devices from the following brands displayed.</div>
+	<div id="Footer" class="mt-5">
+		<div class="container">
+			<hr>
+			<h3 class="mb-4">Bạn có câu hỏi gì? Liên hệ chúng tôi.</h3>
+			<div class="row">
+				<div class="col-6 col-md-3">
+					<p><a href="../menu_web/FAQ.html">Câu hỏi thường gặp</a></p>
+					<p><a href="../menu_web/contact.html">Liên hệ với chúng tôi</a></p>
+				</div>
+				<div class="col-6 col-md-3">
+					<p><a href="../menu_web/login.html">Tài khoản</a></p>
+					<p><a href="../menu_web/privacy.html">Quyền riêng tư</a></p>
+					
+				</div>
+				<hr class="d-md-none">
+				<div class="col-6 col-md-3">
+					<p><a href="https://fast.com/">Kiểm tra tốc độ</a></p>
+					<p><a href="../menu_web/notices.html">Thông báo pháp lý</a></p>
+				</div>
+				<div class="col-6 col-md-3">
+					<p><a href="../menu_web/device.html">Các cách xem</a></p>
+					<p><a href="../menu_web/corpinfo.html">Thông tin doanh nghiệp</a></p>
+				</div>
+				<select class="form-select" id="validationCustom04" required style="width:150px">
+					<option selected >Tiếng Việt</option>
+					<option>English</option>
+				</select>
+			</div>
+			<h3 class="mt-4">Netflix</h3>
+		</div>
+	</div>
+
+	<script>
+		var toastTrigger = document.getElementById('liveToastBtn')
+		var toastLiveExample = document.getElementById('liveToast')
+		if (toastTrigger) {
+			toastTrigger.addEventListener('click', function () {
+				var toast = new bootstrap.Toast(toastLiveExample)
+				toast.show()
+			})
+		}
+	</script>
+
+	<script>var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+			target: '#navbar-example'
+		})
+	</script>
+</body>
+
+</html>
